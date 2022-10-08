@@ -1,13 +1,15 @@
-head {
+header {
     text-align: center;
+    font: Arial
 }
 
 body {
     max-width: 100px;
     margin: 0 auto;
-    font-size: 10em;
+    font-size: 10px;
     text-align: center;
     background-color: pink;
+    font: Arial
 }
 
 img {
@@ -19,19 +21,24 @@ img {
 
 h1 {
     text-align: center;
+    font: Arial;
 }
 
 h2 {
     text-align: center;
+    font: sans-serif;
 }
 
 main p {
     width: 50%;
     text-align: center;
     color: black;
+    display: block;
+    font: Helvetica;
 }
 
 footer p {
     text-align: center;
     color: black;
+    font: sans-serif;
 }
