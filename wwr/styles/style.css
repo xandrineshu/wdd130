@@ -6,21 +6,21 @@ body{
 
 
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#C5A859;
 }
 
 
 nav a{
     text-align: center;
-    color: #d9c2a3;
+    color: white;
     text-decoration: none;
 
 }
 
 
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color:#FAE675;
+    color: #806C3B;
 }
 
 
@@ -37,48 +37,50 @@ nav a:hover {
 
 main section{
     text-align: center;
+    color: #806C3B;
 
 }
 
 
 #background {
     height: 725px;
-    background-color: black;
+    background-color: #A9A64C;
 }
 
 
 .book, .join{
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #A9A64C;
+    color: white;
     text-decoration: none;
 
 }
 
 
 .book:hover, .join:hover{
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #FAE675;
+    color: #806C3B;
 }
 
 
 .msg{
-    background-color: black;
+    background-color: #C5A859;
+    color: white;
 }
 
 
 .msg2 h2{
-    color: #d9c2a3;
+    color: #806C3B;
 }
 
 
 .msg p{
-    color: #d9c2a3;
+    color: white;
 }
 
 
 footer{
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #C5A859;
+    color: white;
 }
 
 
@@ -88,13 +90,14 @@ footer p{
 
 
 footer a{
-    color: #d9c2a3;
+    color: white;
     text-decoration: none;
 }
 
 
 footer a:hover{
-    color: #d9c2a3;
+    background-color: #FAE675;
+    color: #806C3B;
 }
 
 
@@ -104,12 +107,12 @@ footer p a:hover {
 
 
 .home-title{
-    color: #d9c2a3;
+    color: #806C3B;
 }
 
 
 h4{
-    color: #d9c2a3;
+    color: #806C3B;
 }
 
 
@@ -126,4 +129,3 @@ h4{
 #hero-img{
     width: 100%;
 }
-
