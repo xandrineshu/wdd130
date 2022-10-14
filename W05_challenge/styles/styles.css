@@ -1,0 +1,26 @@
+body{
+
+}
+
+main{
+    background-color: grey;
+    width: 50px auto;
+    margin: 30 auto;
+}
+
+.desk{
+    background-color: grey;
+    width: 80px
+}
+
+.graphic{
+    background-color: grey;
+    width: 80px
+}
+
+.person{
+    background-color: grey;
+    width: 80px
+}
+
+

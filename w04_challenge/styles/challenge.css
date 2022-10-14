@@ -1,44 +1,47 @@
-header {
-    text-align: center;
-    font: Arial
-}
-
 body {
-    max-width: 100px;
+    max-width: 350px;
     margin: 0 auto;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
-    background-color: pink;
-    font: Arial
+    background-color: rgb(255, 187, 199);
 }
 
-img {
-    display: block;
+img{
     margin: 0 auto;
-    max-width: 150px;
-    width: 80%;
+    padding: 10%
 }
 
 h1 {
-    text-align: center;
+    color:white;
     font: Arial;
 }
 
-h2 {
-    text-align: center;
-    font: sans-serif;
-}
-
-main p {
-    width: 50%;
-    text-align: center;
-    color: black;
+main p1, p3{
+    color: white;
     display: block;
     font: Helvetica;
 }
 
-footer p {
-    text-align: center;
-    color: black;
+main p2{
+
+}
+
+main p3{
+    color: white;
+    display: block;
+    font: Helvetica;
+}
+
+main p4{
+
+}
+
+footer p1 {
     font: sans-serif;
+    font-size: 1.0em;
+}
+
+footer p2 {
+    font: sans-serif;
+    font-size: 1.0em;
 }
