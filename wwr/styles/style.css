@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Cormorant+Garamond:wght@300&family=Quicksand:wght@300&display=swap');
 
 :root {
-    --heading-font: "Comforter Brush";
-    --paragraph-font: Quicksand, CormorantGaramond, sans-serif;
+  --heading-font: "Comforter Brush";
+  --paragraph-font: Quicksand, CormorantGaramond, sans-serif;
 }
 
 body{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.home-title{
+    color: #806C3B;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -20,6 +33,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -30,6 +44,14 @@ nav a:hover {
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+}
+
+#hero-msg h1{
+    font-family: var(--heading-font);
+}
+
+#hero-msg h4{
+    font-family: var(--paragraph-font);
 
 }
 
@@ -40,18 +62,25 @@ nav a:hover {
 main section{
     text-align: center;
     color: #806C3B;
-
+    font-family: var(--paragraph-font);
+    font-size: 20px;
 }
 
 #background {
     height: 725px;
     background-color: #A9A64C;
+    margin: 100px 0;
+
 }
 
 .book, .join{
     background-color: #A9A64C;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -63,22 +92,31 @@ main section{
 .msg{
     background-color: #C5A859;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 200px 0;
 }
 
 .msg2 h2{
     color: #806C3B;
+    font-family: var(--paragraph-font);
 }
 
 .msg p{
     color: white;
+    padding-bottom: 15px;
+    font-size: .8em;
 }
 
 footer{
     background-color: #C5A859;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
+    font-family: var(--paragraph-font);
     font-size: 1.2em;
 }
 
@@ -94,11 +132,10 @@ footer a:hover{
 
 footer p a:hover {
     text-decoration: underline;
-}    
+}
 
-.home-title{
-    color: #806C3B;
-    font-family: var(--family-font)
+footer .social img{
+    padding-top: 15px;
 }
 
 h4{
@@ -106,14 +143,31 @@ h4{
     font-family: var(--paragraph-font)
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img{
+    border: 10px solid #FAE675;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
-    width: 80px;
+    width: 150px;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 #hero-img{
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
