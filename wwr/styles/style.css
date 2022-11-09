@@ -5,6 +5,8 @@
   --paragraph-font: Quicksand, CormorantGaramond, sans-serif;
 }
 
+/* Home Page */
+
 body{
     max-width: 1600px;
     margin: 0;
@@ -15,13 +17,14 @@ body{
 }
 
 .home-title{
-    color: #FAE675;
+    color: #ffec83;
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .home-grid{
     display: grid;
+    margin-top: 40px;
 }
 
 h2 {
@@ -62,7 +65,7 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -81,7 +84,7 @@ nav a:hover {
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -1;
+    z-index: -1; 
 }
 
 .button-box{
@@ -175,7 +178,8 @@ footer .social img{
 
 h4{
     color: #806C3B;
-    font-family: var(--paragraph-font)
+    font-family: var(--paragraph-font);
+    margin-top: -60px;
 }
 
 main section img {
@@ -221,7 +225,7 @@ main section img {
 
 #hero-img{
     width: 100%;
-}
+} 
 
 .rivers-card{
     grid-column: 2/4;
@@ -237,6 +241,30 @@ main section img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+
+
+/* Sub Page */
+
+.page2-grid{
+    display: grid;
+}
+
+.page2-title{
+    color: #806C3B;
+    font-size: 50px;
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+.grand-canyon-card-1, .grand-canyon-card-2, .salmon-card, .desolation-card{
+    justify-items: center;
+    grid-gap: 80px;
+    width: 150px; 
+    height: 150px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
