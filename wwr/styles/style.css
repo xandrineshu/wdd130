@@ -245,10 +245,6 @@ main section img {
 
 /* Sub Page */
 
-.page2-grid{
-    display: grid;
-}
-
 .page2-title{
     color: #806C3B;
     font-size: 50px;
@@ -257,13 +253,21 @@ main section img {
 }
 
 .grand-canyon-card-1, .grand-canyon-card-2, .salmon-card, .desolation-card{
-    justify-items: center;
-    grid-gap: 80px;
-    width: 150px; 
-    height: 150px;
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 50px;
 }
 
+.grand-canyon-card-1, .grand-canyon-card-2{
+    width: 200px; 
+    height: 200px;
+}
+
+.salmon-card, .desolation-card{
+    width: 200px; 
+    height: 200px;
+}
 
 
 @media screen and (max-width: 900px) {
