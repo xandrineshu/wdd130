@@ -5,6 +5,7 @@
   --paragraph-font: Quicksand, CormorantGaramond, sans-serif;
 }
 
+
 /* Home Page */
 
 body{
@@ -25,6 +26,7 @@ body{
 .home-grid{
     display: grid;
     margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 h2 {
@@ -130,6 +132,7 @@ main section{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #A9A64C;
+    margin-bottom: 2%;
 }
 
 .msg2 h2{
@@ -243,32 +246,93 @@ main section img {
 }
 
 
+
 /* Sub Page */
 
 .page2-title{
     color: #806C3B;
-    font-size: 50px;
+    font-size: 60px;
     font-family: var(--heading-font);
     text-align: center;
 }
 
-.grand-canyon-card-1, .grand-canyon-card-2, .salmon-card, .desolation-card{
+.page2-grid h5{
+    color: #806C3B;
+    font-size: 40px;
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.page2-grid p{
+    text-align: center;
+    font-family: var(--paragraph-font);
+    color: #C5A859;
+    font-size: 25px;
+    margin: 50px auto;
+    margin-top: -1%;
+    width: 60%;
+}
+
+.page2-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     grid-gap: 50px;
 }
 
-.grand-canyon-card-1, .grand-canyon-card-2{
-    width: 200px; 
-    height: 200px;
+.page2-grid div{
+    grid-column: 1/3;
+    grid-row: 1/2;
 }
 
-.salmon-card, .desolation-card{
-    width: 200px; 
-    height: 200px;
+.grand-canyon-card-1, .grand-canyon-card-2, .salmon-card, .desolation-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 0px;
+    width: 70%; 
+    height: 100%;
+    padding: 0px;
+    /*border: 1px solid black;*/
 }
 
+.grand-canyon-card-1 img, .grand-canyon-card-2 img, .salmon-card img, .desolation-card img{
+    width: 100%;
+    border: 10px solid #FAE675;
+}
+
+.grand-canyon-card-1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.grand-canyon-card-2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.salmon-card{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.desolation-card{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.grand-canyon-card-1 h5{
+    margin-top: -10%;
+}
+
+.desolation-card h5{
+    margin-top: -10%; 
+}
+
+
+
+/* For mobile device screen */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
