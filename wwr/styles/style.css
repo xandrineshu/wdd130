@@ -332,6 +332,111 @@ main section img {
 
 
 
+/* Contact Us page */
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    
+    /* Form outline */
+    padding: 2em;
+    border: 5px solid #FAE675;
+    border-radius: 1em;
+    margin-top: -5%;
+  }
+
+.contactus-title h6{
+    font-family: var(--heading-font);
+    color: #806C3B;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+li{
+    font-family: var(--heading-font);
+    color: #806C3B;
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+    By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 2px solid #A9A64C;
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #A9A64C;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+    between the labels and their text fields */
+    margin-left: 0.5em;
+    font-family: var(--paragraph-font);
+    color: #806C3B;
+    font-size: 15px;
+}
+
+#feedback {
+    background-color: #FAE675;
+    color: #888383;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+
+
 /* For mobile device screen */
 
 @media screen and (max-width: 900px) {
