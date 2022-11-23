@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cute+Font&family=Fuzzy+Bubbles&display=swap');
+
+:root {
+    --primary-color: #ff9fbc   ;
+    --secondary-color: #ffc5d6 ;
+    --accent1-color: #fbf2d7 ;
+    --accent2-color: #fafafa ;
+
+    --heading-font: "Bubblegum Sans";
+    --paragraph-font: Cute Font, Fuzzy Bubbles, sans-serif;
+    }
+
+/*
+colors::
+#396E94
+#E7C24F
+#A43312
+#ffffff
+*/
+
+/* Home Page */
+
+body{
+    max-width: 1600px;
+    margin: 0;
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo{
+    width: 150px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: #806C3B;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 150px;
+}
+
+#hero-msg h1, #hero-msg h2{
+    text-align: center;
+}
+
+#hero-msg h1{
+    font-family: var(--heading-font);
+}
+
+#hero-msg h2{
+    font-family: var(--paragraph-font);
+    color: white;
+}
+
+#hero-img{
+    width: 100%;
+} 
+
+.home-title{
+    color: var(--accent2-color);
+    margin-top: 10px;
+    font-size: 80px;
+}
