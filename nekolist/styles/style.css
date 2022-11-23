@@ -8,7 +8,7 @@
 
     --heading-font: "Bubblegum Sans";
     --paragraph-font: Cute Font, Fuzzy Bubbles, sans-serif;
-    }
+}
 
 /*
 colors::
@@ -81,25 +81,47 @@ header {
     margin-top: 150px;
 }
 
-#hero-msg h1, #hero-msg h2{
+#hero-msg h1, #hero-msg h2 {
     text-align: center;
 }
 
-#hero-msg h1{
+#hero-msg h1 {
     font-family: var(--heading-font);
 }
 
-#hero-msg h2{
+#hero-msg h2 {
     font-family: var(--paragraph-font);
     color: white;
 }
 
-#hero-img{
+#hero-img {
     width: 100%;
 } 
 
-.home-title{
+.home-title {
     color: var(--accent2-color);
     margin-top: 10px;
     font-size: 80px;
+}
+
+#intro-message {
+    text-align: center;
+}
+
+#intro-message h1 {
+    font-family: var(--heading-font);
+}
+
+#intro-message h2 {
+    font-family: var(--paragraph-font);
+}
+
+.home-grid {
+    display: grid;
+    margin-top: 90px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card-img {
+    border: 10px solid var(--primary-color)
 }
