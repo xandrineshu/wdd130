@@ -23,8 +23,8 @@ colors::
 body {
     max-width: 1600px;
     margin: 0;
-    background-color: var(--primary-color);
     padding: 0;
+    background-color: var(--accent2-color);
 }
 
 header {
@@ -35,7 +35,7 @@ header {
 }
 
 .logo{
-    width: 150px;
+    width: 180px;
 }
 
 #logo_link{
@@ -51,14 +51,15 @@ nav {
 
 nav a{
     text-align: center;
-    color: white;
+    color: var(--primary-color);
     text-decoration: none;
-    padding: 35px;
+    padding: 60px;
+    font-size: 35px;
 }
 
 nav a:hover {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--accent2-color);
     text-decoration: none;
 }
 
@@ -78,20 +79,24 @@ header {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 150px;
+    margin-top: 390px;
 }
 
 #hero-msg h1, #hero-msg h2 {
     text-align: center;
 }
 
-#hero-msg h1 {
-    font-family: var(--heading-font);
-}
-
 #hero-msg h2 {
     font-family: var(--paragraph-font);
-    color: white;
+    color: var(--secondary-color);
+    margin-top: -70px;
+    font-size: 50px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1; 
 }
 
 #hero-img {
@@ -99,9 +104,10 @@ header {
 } 
 
 .home-title {
-    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
     margin-top: 10px;
-    font-size: 80px;
+    font-size: 100px;
 }
 
 #intro-message {
@@ -110,35 +116,122 @@ header {
 
 #intro-message h1 {
     font-family: var(--heading-font);
+    margin-top: 50px;
+    font-size: 40px;
+    color: var(--primary-color)
 }
 
 #intro-message h2 {
     font-family: var(--paragraph-font);
+    padding: 15%;
+    margin-top: -200px;
+    font-size: 25px;
+    color: darkgray;
 }
 
 .home-grid {
-    display: grid;
     margin-top: 90px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .card-img {
-    border: 10px solid var(--primary-color)
+    border: 10px solid var(--secondary-color);
+    margin-top: -200px;
+    width: 25em;
 }
 
+.story-card {
+    width: 50px; 
+    height: 100px;
+    margin-left: 150px;  
+} 
 
+.music-card{ 
+    width: 50px; 
+    height: 100px; 
+    margin-top: -50px;
+    margin-left: 500px; 
+}
 
+.character-card {
+    width: 50px; 
+    height: 100px; 
+    margin-top: -50px;
+    margin-left: 850px;
+}
 
+.story-card h2, .music-card h2, .character-card h2{
+    font-family: var(--heading-font);
+    text-align: center;
+    margin-right: -300px;
+    color: var(--primary-color);
+}
 
+#anime-bg {
+    height: 730px;
+    background-color: var(--accent1-color);
+    margin: 100px 0;
+    margin-top: 200px;
+}
 
+.background {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
+.msg {
+    background-color: var(--secondary-color);
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 200px 0;
+    width: 45%;
+    margin-top: -530px;
+    margin-left: 660px;
+    position: absolute;
+    z-index: 100;
+}
 
+.msg h2{
+    font-family: var(--heading-font);
+    font-size: 35px;
+}
 
+.msg p{
+    font-family: var(--paragraph-font);
+    font-size: 30px;
+}
 
+footer {
+    font-family: var(--paragraph-font);
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
 
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
 
+footer p a:hover {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
 
+footer .social img{
+    padding-top: 25px;
+}
 
+footer .social a:hover {
+    background-color: var(--accent2-color);
+}
 
 
 
