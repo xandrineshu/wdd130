@@ -125,8 +125,8 @@ header {
     font-family: var(--paragraph-font);
     padding: 15%;
     margin-top: -200px;
-    font-size: 25px;
-    color: darkgray;
+    font-size: 30px;
+    color: #ffc5d6;
 }
 
 .home-grid {
@@ -134,7 +134,7 @@ header {
 }
 
 .card-img {
-    border: 10px solid var(--secondary-color);
+    border: 9px solid #efe4c3;
     margin-top: -200px;
     width: 25em;
 }
@@ -162,7 +162,7 @@ header {
 .story-card h2, .music-card h2, .character-card h2{
     font-family: var(--heading-font);
     text-align: center;
-    margin-right: -300px;
+    margin-right: -350px;
     color: var(--primary-color);
 }
 
