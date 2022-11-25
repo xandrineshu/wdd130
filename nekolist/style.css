@@ -129,27 +129,27 @@ header {
 .card-img {
     border: 9px solid #efe4c3;
     margin-top: -200px;
-    width: 25em;
+    width: 24em;
 }
 
 .story-card {
     width: 50px; 
     height: 100px;
-    margin-left: 150px;  
+    margin-left: 80px;  
 } 
 
 .music-card{ 
     width: 50px; 
     height: 100px; 
     margin-top: -50px;
-    margin-left: 500px; 
+    margin-left: 440px; 
 }
 
 .character-card {
     width: 50px; 
     height: 100px; 
     margin-top: -50px;
-    margin-left: 850px;
+    margin-left: 800px;
 }
 
 .story-card h2, .music-card h2, .character-card h2{
@@ -161,7 +161,7 @@ header {
 
 #anime-bg {
     height: 730px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     margin: 100px 0;
     margin-top: 200px;
 }
@@ -173,13 +173,13 @@ header {
 }
 
 .msg {
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
     line-height: 1.5em;
-    padding: 35px;
-    width: 40%;
-    margin-top: -500px;
-    margin-left: 730px;
+    padding: 30px;
+    width: 39%;
+    margin-top: -530px;
+    margin-left: 670px;
     position: absolute;
     z-index: 100;
 }
