@@ -177,21 +177,21 @@ header {
     color: white;
     line-height: 1.5em;
     padding: 35px;
-    width: 45%;
-    margin-top: -530px;
-    margin-left: 660px;
+    width: 40%;
+    margin-top: -500px;
+    margin-left: 730px;
     position: absolute;
     z-index: 100;
 }
 
 .msg h2{
     font-family: var(--heading-font);
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .msg p{
     font-family: var(--paragraph-font);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 footer {
