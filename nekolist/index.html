@@ -71,6 +71,91 @@
             <h2>LOVABLE CHARACTERS!</h2>
         </section>
 
+    <div class="slideshow-container">
+
+        <h2> Top 6 Most Popular Characters</h2>
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="images/anime_gallery/anya.jpeg">
+            <div class="text">Anya Forger</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/anime_gallery/kuroo.jpeg">
+            <div class="text">Tetsurou Kuroo</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/anime_gallery/levi.jpeg">
+            <div class="text">Levi Ackerman</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/anime_gallery/kaguya.jpeg">
+            <div class="text">Kaguya Shinomiya</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="images/anime_gallery/tanjiro.jpeg">
+            <div class="text">Tanjiro Kamado</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/anime_gallery/todoroki.jpeg">
+            <div class="text">Shoto Todoroki</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+        
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+        
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+          
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+    }
+    </script>
+
         <div id="anime-bg">
             <img class="background" src="images/GIF_Anime_Background/kiki_windy_weather.gif" alt="Kiki Windy Weather">
         </div> 
