@@ -335,7 +335,6 @@ footer .social a:hover {
 
 .sub2-grid {
     margin-top: 50px;
-    display: grid;
 }
 
 .sub2-grid h1 {
@@ -344,7 +343,7 @@ footer .social a:hover {
     color: var(--primary-color);
 }
 
-.sub2-grid h2{
+.sub2-grid h2 {
     font-family: var(--paragraph-font);
     font-size: 30px;
     color: var(--secondary-color);
@@ -356,24 +355,132 @@ footer .social a:hover {
     margin-left: 50px;
 }
 
-.beginner-card{
+.beginner-card, .popular-card, .family-card,
+.best-card, .movies-card {
     margin-bottom: 200px;
 }
 
-.beginner-card .card-img {
+.beginner-card .card-img, .popular-card .card-img, .family-card .card-img,
+.best-card .card-img, .movies-card .card-img {
+    border: 6px solid #e7dbb8;
+    margin-top: -200px;
+    width: 24em;
     margin-top: 5px;
 }
 
-.beginner-card .text-summary {
+.beginner-card .text-summary, .popular-card .text-summary, .family-card .text-summary,
+.best-card .text-summary, .movies-card .text-summary {
     float: right;
-    margin-right: 250px;
+    margin-right: 240px;
+    margin-top: -25px;
+    width: 46%;
 }
 
-.beginner-card .text-summary p {
+.beginner-card .text-summary h3, .popular-card .text-summary h3, .family-card .text-summary h3,
+.best-card .text-summary h3, .movies-card .text-summary h3 {
+    font-family: var(--heading-font);
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.beginner-card .text-summary p, .popular-card .text-summary p, .family-card .text-summary p,
+.best-card .text-summary p, .movies-card .text-summary p{
     font-family: var(--paragraph-font);
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    font-size: 20px;
 }
 
+.beginner, .popular, .family, .best, .movies {
+    padding-bottom: 40px;
+}
 
+#popular-list, #family-list,
+#best-list, #movies-list {
+    margin-top: -150px;
+}
+
+.more-recommendation {
+    margin: 150px;
+    margin-top: -100px;
+    background-color: var(--primary-color);
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list h5 {
+    text-align: center;
+    margin-top: 1%;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    color: var(--accent2-color);
+}
+
+.list p {
+    font-size: 15px;
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    color: var(--accent2-color);
+}
+
+.title {
+    font-family: var(--heading-font);
+    font-size: 25px;
+    padding: 10px;
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+.classic {
+    margin: 0 auto;
+}
+
+.underrated {
+    margin-left: auto;
+}
+
+.must-watch {
+    margin-right: auto;
+}
+
+.background2 {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 330px;
+}
+
+.msg p{
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+}
+
+.msg2 {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    line-height: 1.5em;
+    padding: 30px;
+    width: 44%;
+    margin-top: -520px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 100;
+}
+
+.msg2 h6 {
+    font-family: var(--heading-font);
+    font-size: 30px;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.msg2 p {
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+    /* margin-top: -50px; */
+}
 
 
 
