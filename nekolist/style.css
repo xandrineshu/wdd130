@@ -324,7 +324,54 @@ footer .social a:hover {
 
 /* Sub Page 2 */
 
+#intro-message p {
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: -230px;
+    padding: 10px;
+}
 
+.sub2-grid {
+    margin-top: 50px;
+    display: grid;
+}
+
+.sub2-grid h1 {
+    font-family: var(--heading-font);
+    font-size: 45px;
+    color: var(--primary-color);
+}
+
+.sub2-grid h2{
+    font-family: var(--paragraph-font);
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-top: -20px;
+}
+
+#beginner-list, #popular-list,
+#family-list, #best-list, #movies-list {
+    margin-left: 50px;
+}
+
+.beginner-card{
+    margin-bottom: 200px;
+}
+
+.beginner-card .card-img {
+    margin-top: 5px;
+}
+
+.beginner-card .text-summary {
+    float: right;
+    margin-right: 250px;
+}
+
+.beginner-card .text-summary p {
+    font-family: var(--paragraph-font);
+}
 
 
 
